@@ -1,2 +1,2 @@
 # PyTorch-Examples
-Examples of me using PyTorch
+Examples using PyTorch
