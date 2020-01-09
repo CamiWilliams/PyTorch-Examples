@@ -1,0 +1,151 @@
+.app {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.header {
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: 'Gelasio', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+
+.header .name {
+    font-size: 25px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header .nav {
+    font-size: 18px;
+    margin-left: 50px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+.header a {
+    margin-left: 20px;
+    color: #8B8B8B;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #6834C0;
+    text-decoration: none;
+}
+
+.description {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.description .title {
+    color: #242424;
+    font-family: 'Gelasio', sans-serif;
+    font-size: 65px;
+}
+
+.description .subtitle {
+    color: #8B8B8B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.track {
+    padding-top: 50px;
+    margin: auto;
+    width: 60%;
+}
+
+.track .drawbox {
+    height: 410px;
+    width: 520px;
+    background: linear-gradient(to right, #F08E35, #D44370);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px;
+    border-radius: 4px;
+}
+
+#sketchpad {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 510px;
+    border: 2px;
+    border-radius: 4px;
+    background-color: #FFF;
+    position: relative;
+}
+
+.controls {
+    width: 100%;
+    text-align: center;
+    color: #242424;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.controls p {
+    display: inline-block;
+    width: 32%;
+}
+
+.pinumbers {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #242424;
+    overflow-wrap: break-word;
+}
+
+#pis {
+    padding: 20px;
+}
+
+.pi_num {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+}

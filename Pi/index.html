@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>PyTorch Pi Day</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto:100,300,500&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="trackpad.js"></script>
+  </head>
+  <body onload="init()" style="margin: 0;">
+    <div class="app">
+      <div class="content">
+        <div class="header">
+          <img src="icon.png" />
+            <div class="name">PyTorch Pi Day</div>
+            <div class="nav">
+              <a href="url" target="_blank">How it Works</a>
+              <a href="url" target="_blank">Source Code</a>
+              <a href="http://twitter.com/cwillycs" target="_blank">Twitter</a>
+            </div>
+        </div>
+        <div class="description">
+          <div class="title">Capture and share</div>
+          <div class="subtitle">Draw a digit of pi in the box with your finger or trackpad. Try and draw as many numbers as you can.</div>
+        </div>
+        <div class="track">
+          <div class="drawbox">
+            <canvas id="sketchpad" height="400" width="510"></canvas>
+          </div>
+        </div>
+        <div class="controls">
+          <p>[Enter] - Submit</p>
+          <p>[C] - Clear</p>
+          <p>[D] - Download Pi</p>
+        </div>
+      </div>
+      <div class="pinumbers">
+        <div id="pis"></div>
+      </div>
+    </div>
+  </body>
+</html>
